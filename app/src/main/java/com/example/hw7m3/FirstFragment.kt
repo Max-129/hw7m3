@@ -32,11 +32,11 @@ class FirstFragment : Fragment() {
 
     private fun lodData() {
         list = ArrayList()
-        list.add(Model(R.drawable.img, "Rick and Morty"))
-        list.add(Model(R.drawable.img_1, "Rick"))
-        list.add(Model(R.drawable.img_2, "Morty"))
-        list.add(Model(R.drawable.img_3, "Sanchez"))
-        list.add(Model(R.drawable.img_4, "Maks"))
+        list.add(Model(R.drawable.img_crysis3, "Crysis 3"))
+        list.add(Model(R.drawable.img_assassinscreediii, "Assassin's Creed III"))
+        list.add(Model(R.drawable.img_farcry3, "Far Cry 3"))
+        list.add(Model(R.drawable.img_minecraft, "Minecraft"))
+        list.add(Model(R.drawable.img_prototype2, "Prototype 2"))
     }
 
     private fun theclick(pos: Int) {
